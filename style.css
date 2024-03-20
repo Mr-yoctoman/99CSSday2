@@ -1,0 +1,222 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* first element in the day2 task */
+.container1 {
+  width: 410px;
+  height: 450px;
+  border: 2px solid darkgray;
+  border-radius: 15px;
+}
+
+.inner-box1 {
+  position: relative;
+}
+
+.image1 {
+  margin: 5px 9px;
+  width: 390px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.fiftyoff,
+.time,
+.promotion {
+  position: absolute;
+
+  color: white;
+}
+.fiftyoff {
+  bottom: 10px;
+  margin-left: 9px;
+  background-color: orangered;
+  width: 150px;
+}
+.time {
+  background-color: white;
+  width: 50px;
+  bottom: 10px;
+  right: 13px;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+.promotion {
+  color: darkgray;
+  top: 10px;
+  background-color: whitesmoke;
+  left: 15px;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+}
+.footer1 {
+  display: flex;
+  border-top: 1px solid darkgray;
+  border-spacing: 5px;
+}
+.Restaurantname {
+  font-size: x-large;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.dishname {
+  color: rgb(130, 130, 130);
+  margin-left: 10px;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.safedelivery {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 60px;
+  height: 30px;
+}
+
+.safetynote {
+  color: rgb(130, 130, 130);
+  padding: 5px;
+  flex: 1;
+}
+
+/* second element in the day2 task */
+.container2 {
+  padding: 0px;
+}
+.inner-box2 {
+  position: relative;
+  padding: 0px;
+  width: 600px;
+  height: 350px;
+}
+.image2 {
+  width: 600px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.boxinsideimage1 {
+  position: absolute;
+  top: 100px;
+}
+
+.heading3 {
+  text-align: center;
+  color: blueviolet;
+
+  font-size: x-large;
+}
+
+.container2 {
+  width: 600px;
+  height: 350px;
+}
+.randompara {
+  font-size: medium;
+  color: blueviolet;
+}
+.explorebutton {
+  margin-left: 250px;
+  width: 100px;
+  border-radius: 50px;
+  height: 40px;
+  background-color: white;
+  border: none;
+}
+
+/* Third element in the day2 task */
+
+.container3 {
+  position: relative;
+  width: 900px;
+  height: 300px;
+}
+.image3 {
+  width: 900px;
+  height: 300px;
+}
+
+.searchboxanddropdown {
+  height: 40px;
+  position: relative;
+  width: 500px;
+  border-radius: 15px;
+  border: none;
+}
+.dropdownbox {
+  border-radius: 15px 0px 0px 15px;
+  background-color: white;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  width: 150px;
+  border: none;
+}
+.searchbar {
+  border-radius: 0px 15px 15px 0px;
+  background-color: white;
+  height: 50px;
+  right: 0px;
+  position: absolute;
+  width: 350px;
+  border-left-color: aqua;
+}
+.zomatologo {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.zomatocaption {
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.inner-box3 {
+  width: 900px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+}
+.outerboxforsearch {
+  position: absolute;
+
+  right: 200px;
+  bottom: 30px;
+}
+
+/* fourth component of the day 2 task */
+
+.container4 {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  border: 2px solid darkgrey;
+  border-radius: 20px 20px 0px 0px;
+}
+.backgroundimage {
+  width: 500px;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.profileimage {
+  left: 140px;
+  position: absolute;
+  width: 200px;
+  border-radius: 50%;
+  top: 130px;
+}
+.inner-box4 {
+  width: 500px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+}
